@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffff;
+    margin: 15px 20px;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.container{
+    background-color:whitesmoke;
+    padding: 40px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    margin: 20px 30px;
+}
+
+
+h2{
+    text-align: center;
+    font-weight: 400;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+textarea,
+select
+{
+    width: 100%;
+    background-color:snow;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+fieldset{
+    width: 100%;
+    background-color: snow;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px 12px;
+    font-size: 15px;
+    margin: 10px;
+    cursor:help;
+  
+}
+input[type="submit"]{
+    width: 50%;
+    margin:0px 250px 0px 250px;
+    padding: 10px;
+    background-color: tomato;
+    border:none;
+    border-radius: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-weight: 900;
+    font-size: 14px;
+    
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(245, 63, 63);
+    cursor: grab;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover,
+input[type="password"]:hover,
+textarea:hover,
+select:hover
+{
+    background-color:rgb(241, 233, 233);
+}
+
