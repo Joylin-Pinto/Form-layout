@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>   
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="formstyle.css">
+    <script src="https://kit.fontawesome.com/182dbc2ceb.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="title">
+        Peachy Feelin'
+    </div>
+    <div class="titletwo">
+    </div>
+    <nav>
+        <span>Home</span>
+        <span>New Arrivals</span>
+        <span>Cart</span>
+        <span id="nav-sign">Sign-in</span>
+    </nav>
+
+    <div class="wrapper">
+        <form action="get">
+            <p><i class="fas fa-user-circle"></i> 
+                <input type="text" name="username" id="Username" placeholder="username"></p>
+            <p><i class="fas fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="e-mail"></p>
+            <p><i class="fas fa-lock"></i>
+                <input type="password" name="pass" id="pass" placeholder="password"></p>
+            <p><input type="submit" value="Sign in"></p>
+            <div id="log">
+                Already a user? <a href="#">Login</a>
+            </div>
+        </form>   
+    </div>
+</body>
+</html>
